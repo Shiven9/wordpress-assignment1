@@ -1,0 +1,144 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  nav ul{
+    list-style: none;
+  }
+
+  /* Homepage Template */
+  .masthead {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .masthead h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .home {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .home h2 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .post-list {
+    padding: 50px 0;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .card-text {
+    color: #666;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Post Template */
+  .post-masthead {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .post-masthead h1 {
+    font-size: 3rem;
+    color: #333;
+  }
+  
+  .post-list .article {
+    margin-bottom: 20px;
+  }
+  
+  .post-list .article a {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .post-list .article p {
+    color: #666;
+  }
+  
+  .post-list .article p:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
